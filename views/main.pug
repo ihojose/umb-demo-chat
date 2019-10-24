@@ -1,0 +1,15 @@
+doctype html
+html
+    head
+        title Chat
+
+        link(href="/main.css" rel="stylesheet")
+
+        script(src="/socket.io/socket.io.js")
+        script(src="/js/application.js")
+
+    body
+        block content
+
+        if channel !== undefined
+            script(src=`/js/${channel}`)

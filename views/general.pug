@@ -1,0 +1,12 @@
+- channel = 'general.chat.js'
+
+include main
+    block content
+
+        h2 Chat general
+        div#chat-box
+
+
+        div.text-box
+            input#do-message(type="text" placeholder="Ingresa mensage.")
+            button#do-send(type="button" onclick="sendMessage()") Enviar

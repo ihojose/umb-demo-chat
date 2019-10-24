@@ -1,0 +1,29 @@
+{
+  "name": "mongo",
+  "version": "1.0.0",
+  "description": "Chat UMB",
+  "main": "starter.js",
+  "scripts": {
+    "start": "node starter.js",
+    "test": "jasmine"
+  },
+  "keywords": [
+    "mongo",
+    "umb"
+  ],
+  "author": "Taller de programación UMB",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-minify": "^0.5.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "pug": "^2.0.4",
+    "raphael": "^2.3.0",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0"
+  }
+}
